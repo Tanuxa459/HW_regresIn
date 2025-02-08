@@ -1,0 +1,1 @@
+{"uuid":"c73da060-b93a-4a5f-9b27-7ca3d6cab739","name":"RegresInTests","children":["235c3128-a0aa-4d38-8a97-bc62b9640540"],"befores":[{"name":"setUp","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1739022558928,"stop":1739022559608}],"afters":[],"start":1739022558855,"stop":1739022562099}

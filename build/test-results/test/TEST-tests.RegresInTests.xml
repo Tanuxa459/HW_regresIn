@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="tests.RegresInTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2025-02-08T14:02:07" hostname="DESKTOP-49FATQ1" time="4.423">
+  <properties/>
+  <testcase name="Тест на просмотр информации о пользователе 200 статус" classname="tests.RegresInTests" time="2.149"/>
+  <testcase name="Тест на изменение пользователя запрос без данных - 400" classname="tests.RegresInTests" time="0.482"/>
+  <testcase name="Тест на создание пользователя без данных 201 статус" classname="tests.RegresInTests" time="0.346"/>
+  <testcase name="Успешный тест на изменение пользователя 200" classname="tests.RegresInTests" time="1.006"/>
+  <testcase name="Успешный тест на создание пользователя" classname="tests.RegresInTests" time="0.305"/>
+  <system-out><![CDATA[Body:			<none>
+Request URI:	https://reqres.in/api/users/2
+Headers:		Accept=*/*
+{
+    "data": {
+        "id": 2,
+        "email": "janet.weaver@reqres.in",
+        "first_name": "Janet",
+        "last_name": "Weaver",
+        "avatar": "https://reqres.in/img/faces/2-image.jpg"
+    },
+    "support": {
+        "url": "https://contentcaddy.io?utm_source=reqres&utm_medium=json&utm_campaign=referral",
+        "text": "Tired of writing endless social media content? Let Content Caddy generate it for you."
+    }
+}
+Body:
+{
+    ""
+}
+Request URI:	https://reqres.in/api/users/2
+Headers:		Accept=*/*
+				Content-Type=application/json
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Error</title>
+  </head>
+  <body>
+    <pre>Bad Request</pre>
+  </body>
+</html>
+Body:
+{""}
+Request URI:	https://reqres.in/api/users
+Headers:		Accept=*/*
+				Content-Type=text/plain; charset=ISO-8859-1
+{
+    "id": "88",
+    "createdAt": "2025-02-08T14:02:10.663Z"
+}
+Body:
+{
+    "name": "morpheus",
+    "job": "zion resident"
+}
+Request URI:	https://reqres.in/api/users/2
+Headers:		Accept=*/*
+				Content-Type=application/json
+{
+    "name": "morpheus",
+    "job": "zion resident",
+    "updatedAt": "2025-02-08T14:02:11.453Z"
+}
+Request URI:	https://reqres.in/api/users
+Body:
+{
+    "name": "mouse",
+    "job": "teacher"
+}
+Headers:		Accept=*/*
+				Content-Type=application/json
+{
+    "name": "mouse",
+    "job": "teacher",
+    "id": "884",
+    "createdAt": "2025-02-08T14:02:11.987Z"
+}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
